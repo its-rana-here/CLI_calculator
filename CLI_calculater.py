@@ -8,7 +8,7 @@ def division(a,b):
     if b == 0:
         return "Can not divide by zero"
     return a/b
-
+print("------Welcome-------")
 print("------CLI Claculater------")
 
 print("1. Addition")
@@ -22,8 +22,8 @@ def f_input():
     return choice
 
 def f_run(choice):
-    a = int(input("enter your first number: "))
-    b = int(input("enter your second number: "))
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
     if choice in ["1", "+"]:
         print("Output:", addition(a,b))
         check()
