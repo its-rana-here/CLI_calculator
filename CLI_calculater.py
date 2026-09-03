@@ -1,5 +1,3 @@
-print("hii Everyone this is me , saying hii to you all")
-
 def addition(a, b):
     return a + b
 def subtract(a, b):
