@@ -65,7 +65,7 @@ def check():
             print("Wrong Input ⚠️ ")
             check()
             
-
+print("Hey buddy. ")
 check()
 
 
