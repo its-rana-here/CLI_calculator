@@ -64,7 +64,8 @@ def check():
         else:
             print("Wrong Input ⚠️ ")
             check()
-            
+
+print("Hey")            
 check()
 
 
