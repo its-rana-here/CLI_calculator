@@ -18,8 +18,14 @@ print("4. Division")
 print("5 Exit")
 
 def f_input():
-    choice = input("Enter your Function: ")
-    return choice
+    while True:
+        choice = input("Enter your Function: ")
+
+        if choice == "":
+            print("⚠️ Please enter a function.")
+            continue
+
+        return choice
 
 def f_run(choice):
     a = int(input("Enter first number: "))
@@ -45,6 +51,9 @@ def check():
             f_run(choice)
         elif choice in ["5", "Exit", "exit"]:
            print("Thanks for using our service.")
+        elif choice == choice.strip():
+            print("kuchh bhi type kiya hai. Kuchh to choose karo. ")
+            check()
 
         else:
             print("You have choose Something.")
