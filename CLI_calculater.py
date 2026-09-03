@@ -56,7 +56,7 @@ def check():
             check()
 
         else:
-            print("You have choose Something.")
+            print("Wrong Input ⚠️ ")
             check()
             
 
