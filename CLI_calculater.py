@@ -22,7 +22,8 @@ def f_input():
     return choice
 
 def f_run(choice):
-    
+    a = int(input("enter your first number: "))
+    b = int(input("enter your second number: "))
     if choice in ["1", "+"]:
         print("Output:", addition(a,b))
         check()
